@@ -1,0 +1,1 @@
+The 2 files shown above, or below (header.html, footer.html) are template files that will be copied across all of the pages.
