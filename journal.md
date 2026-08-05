@@ -15,6 +15,7 @@
 
 ### Colour schemes
 - Doesn't look great in my opinion, but it is consistent across the website.
+- White backgrounds, black header/nav bar, teal blue as the primary colour
 
 ### Accessibility features
 - No accessibility features I could find - So certainly no accessibility features that somebody with additional needs will be able to find easily.
@@ -48,27 +49,46 @@ Overall, pretty good.
 
 ## Gymshark
 ### Page Layout
+- Horrible. There's 2 bestsellers carousels. And inbetween them is a hero card about the bestsellers. They literally just could've done what they did with the rest of the categories on the page and have 2 filters under the title - Men and Women. That would've made it much better.
+- The random hero banners in the middle of the carousels are confusing and make the page look cluttered.
 
 ### Nav menus
+- Not terrible, consistent across different pages.
+- Looks average. Nothing too bad, but it isn't outstanding in any way.
+- It's structured in a good way.
 
 ### Colour schemes
+- Consistent - it's just black and white.
 
 ### Accessibility features
+- No accessibility features.
 
 ### UX
-
+- Only for women's clothes you can search by colour.
+- All of the icons on the right side of the nav bar move up a little when you hover over them, except for the search icon.
+- The banner at the top displaying deals looks fine, it's just irritating.
+- The massive block of text at the bottom with varying sizes of titles just looks bad and is unnecessary.
 
 ## NHS Better Health
 ### Page Layout
+- It's simple. There's different sections of the page depending on what content is inside.
+- Different colours help to distinguish the different content areas.
 
 ### Nav menus
+- There is one nav bar, with only 4 items.
+- Easy switching between the different topics
+- Can tell which page you're on with a black underline
 
 ### Colour schemes
+- Yellow as the primary, with blue as a secondary. White background.
 
 ### Accessibility features
+- Allegedly there are accessibility features, but I cannot access them. There is no button to enable/disable any features.
 
 ### UX
-
+- Simple but informative.
+- Simple images next to larger blocks of text to convey the message quicker.
+- Nice split of different colours to distinguish the separate sections on the pages.
 
 # Activity 4 - Daily Development Journal
 ### Date: 01/01/1979
