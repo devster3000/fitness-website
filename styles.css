@@ -1,0 +1,72 @@
+/* === Text & Assets === */
+h1 {
+    font-size: large;
+    color: #141413;
+    text-decoration: none;
+}
+
+h2 {
+    font-size: medium;
+    color: #141413;
+    text-decoration: none;
+}
+
+h3 {
+    font-size: medium;
+    color: #555551;
+    text-decoration: none;
+}
+
+body {
+    color: #141413;
+    text-decoration: none;
+}
+
+p {
+    color: #141413;
+    text-decoration: none;
+}
+
+a {
+    color: #141413;
+    text-decoration: none;
+}
+
+img {
+    border-radius: 16px;
+}
+
+
+/* === Nav Bar === */
+
+.nav {
+    font-size: small;
+    transition: transform 0.3s ease-in-out;
+}
+
+.nav:hover {
+    transform: translateY(-10px); /* Subtle animation with the nav buttons */
+}
+
+.left-buttons {
+    float: left;
+    flex-direction: row;
+}
+
+.right-buttons {
+    float: right;
+    flex-direction: row;
+}
+
+.centre-nav {
+    float: center;
+}
+
+/* Sign-in / Account button */
+.account-button {
+    border-color: #141413;
+    border-radius: 16px;
+    padding: 15px 32px;
+
+    cursor: pointer;
+}
