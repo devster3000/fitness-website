@@ -48,7 +48,7 @@
 ### UX
 
 
-### Activity 4 - Daily Development Journal
+# Activity 4 - Daily Development Journal
 ### Date: 01/01/1979
 ### Time Spent: 0 hours
 ### Activity: N/A
