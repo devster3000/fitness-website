@@ -1,4 +1,10 @@
 /* === Text & Assets === */
+
+content {
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+
 h1 {
     font-size: large;
     color: #141413;
@@ -39,6 +45,10 @@ img {
 
 /* === Nav Bar === */
 
+header {
+    background-color: #E3E3DF;
+}
+
 .nav {
     font-size: small;
     transition: transform 0.3s ease-in-out;
@@ -46,6 +56,13 @@ img {
 
 .nav:hover {
     transform: translateY(-10px); /* Subtle animation with the nav buttons */
+}
+
+.nav-border {
+    border-color: #141413;
+    border-bottom: 2px;;
+    margin-left: 1rem;
+    margin-right: 1rem;
 }
 
 .left-buttons {
