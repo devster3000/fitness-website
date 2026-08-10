@@ -40,6 +40,7 @@ nav {
 .left-buttons,
 .right-buttons {
     display: flex;
+    align-items: center;
     flex-direction: row;
     gap: 20px;
     list-style: none;
@@ -61,10 +62,11 @@ nav {
 
 /* Sign-in / Account button */
 .account-button {
-    border: 2px solid #141413;
-    border-radius: 16px;
-    padding: 15px 32px;
+    border: 1px solid #141413;
+    border-radius: 12px;
+    padding: 0.5rem 1rem;
     cursor: pointer;
+    align-items: center;
 }
 
 
@@ -125,4 +127,8 @@ footer {
     nav {
         background-color: #141413;
     }
+
+    .account-button {
+        border: 1px solid white;
+    }  
 }
