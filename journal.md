@@ -102,3 +102,11 @@ Overall, pretty good.
 ### Problem: Website, even though there is no content yet, looks terrible.
 ### Solution: Make a basic theme, with custom fonts and cursors so it doesn't look terrible when I'm testing.
 ### Learning: I learned how to add custom fonts, cursors and automatic dark themes. They're all actually pretty easy.
+
+### Problem: No footer.
+### Solution: Make a basic footer, with each "category" of items (Navigation, About) has a column of items underneath.
+### Learning: I learned how to make a decent footer - with titles, items and a good layout.
+
+### Problem: Footer is inefficient. I was using divs for each list item, meaning that with a hover effect they would all move together
+### Solution: Use lists instead - just like the header, except vertical. Also added some nice animations to it so it looks better.
+### Learning: I learned how footers can be made to look decent, and how to make my website more efficient.
