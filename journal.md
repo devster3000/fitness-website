@@ -91,9 +91,14 @@ Overall, pretty good.
 - Nice split of different colours to distinguish the separate sections on the pages.
 
 # Activity 4 - Daily Development Journal
-### Date: 01/01/1979
-### Time Spent: 0 hours
-### Activity: N/A
-### Problem: Lorem ipsum dolor sit amet
-### Solution: Lorem ipsum dolor sit amet
-### Learning: Lorem ipsum dolor sit amet
+## Date: 10/08/2026
+### Time Spent: 6 hours
+### Activity: Creating the website
+
+### Problem: There is no header/navbar
+### Solution: Made a header/navbar
+### Learning: I learned (remembered) how flexbox works in order to get the list items horizontal, rather than vertical.
+
+### Problem: Website, even though there is no content yet, looks terrible.
+### Solution: Make a basic theme, with custom fonts and cursors so it doesn't look terrible when I'm testing.
+### Learning: I learned how to add custom fonts, cursors and automatic dark themes. They're all actually pretty easy.
