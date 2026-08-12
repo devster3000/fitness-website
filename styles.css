@@ -3,6 +3,9 @@
     margin-top: 2rem;
     margin-left: 2rem;
     margin-right: 2rem;
+    margin-bottom: 2rem;
+
+    justify-content: center;
 }
 
 
@@ -26,17 +29,12 @@ a {
 
 /* === Nav Bar (header) === */
 
-header {
-    background-color: #fcfcfb;
-    /* border-bottom: 2px solid #141413; */
-}
 
 nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 2rem;
-    background-color: #fcfcfb;
 }
 
 .left-buttons,
@@ -65,20 +63,37 @@ nav {
 .centre-nav {
     display: flex;
     align-items: center;
+
+    transition: transform 0.3s ease-in-out;
 }
 
 .centre-nav img {
     width: 300px;
     height: 75px;
+    transition: transform 0.3s ease-in-out;
+
+}
+
+.centre-nav:hover {
+    transform: translate3d(10px);
 }
 
 /* Sign-in / Account button */
 .account-button {
-    border: 1px solid #141413;
-    border-radius: 12px;
-    padding: 0.5rem 1rem;
+    padding: 0.5rem;
     cursor: pointer;
     align-items: center;
+    transition: transform 0.3s ease-in-out;
+}
+
+.account-button a {
+    color: inherit;
+}
+
+.account-button:hover {
+    background-color: #061b13;
+    color: white;
+    transform:perspective()
 }
 
 
@@ -86,25 +101,23 @@ nav {
 /* === Footer === */
 footer {
     display: flex;
-    /* background-color: black; */
-    display: flex;
-    justify-content:start;
-    align-items:start;
+    justify-content: start;
+    align-items: start;
     padding: 2rem;
     border-top: 1px solid black;
-    /* border-top-left-radius: 2rem;
-    border-top-right-radius: 2rem; */
 }
 
 .footer-titles {
     font-size: 2rem;
     font-weight: bold;
-    padding-right: 5rem;
+    padding-right: 4rem;
     list-style: none;
 }
 
-.footer-text {
+.footer-text,
+.footer-text li {
     font-size: 1rem;
+    margin-left: -2rem;
     text-decoration: none;
     list-style: none;
     transition: transform 0.3s ease-in-out;
@@ -115,20 +128,48 @@ footer {
 }
 
 
-/* === Home Page === */
+/* === Page Contents === */
 .greeting-text {
     font-size: 3.5rem;
     font-weight: bold;
 }
 
+.row {
+    display: flex;
 
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
 
+.box {
+    display: flex;
+    flex-direction: column;
+    
+    margin: 2rem;
+    padding: 2rem;
+
+    border: 2px solid #061b13;
+    background: #061b13;
+    border-radius: 24px;
+    color: white;
+
+    min-width: 300px;
+    min-height: 200px;
+}
+
+.box h1 {
+    display: flex;
+
+    font-size: 2rem;
+    font-weight: bold;
+}
 
 
 @media (prefers-color-scheme: dark) {
     
     body {
-        background-color: #141413;
+        background-color: #131313;
         color: white;
     }
 
@@ -136,19 +177,19 @@ footer {
         color: white;
     }
 
-    header {
-        background-color: #141413;
-    }
-
     footer {
         border-top: 1px solid white;
     }
-
-    nav {
-        background-color: #141413;
+    
+    .account-button:hover {
+        border: 1px solid white;
+        background-color: white;
+        color: black;
     }
 
-    .account-button {
-        border: 1px solid white;
-    }  
+    .box {
+        border: 2px solid #1a1a1a;
+        background-color: #0c0c0c;
+        color: white;
+    }
 }

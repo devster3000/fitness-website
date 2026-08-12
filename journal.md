@@ -97,16 +97,33 @@ Overall, pretty good.
 
 ### Problem: There is no header/navbar
 ### Solution: Made a header/navbar
-### Learning: I learned (remembered) how flexbox works in order to get the list items horizontal, rather than vertical.
+### Learning: I learned (remembered) how flexbox works in order to get the list items horizontal, rather than vertical
 
-### Problem: Website, even though there is no content yet, looks terrible.
-### Solution: Make a basic theme, with custom fonts and cursors so it doesn't look terrible when I'm testing.
-### Learning: I learned how to add custom fonts, cursors and automatic dark themes. They're all actually pretty easy.
+### Problem: Website, even though there is no content yet, looks terrible
+### Solution: Make a basic theme, with custom fonts and cursors so it doesn't look terrible when I'm testing
+### Learning: I learned how to add custom fonts, cursors and automatic dark themes. They're all actually pretty easy
 
 ### Problem: No footer.
-### Solution: Make a basic footer, with each "category" of items (Navigation, About) has a column of items underneath.
-### Learning: I learned how to make a decent footer - with titles, items and a good layout.
+### Solution: Make a basic footer, with each "category" of items (Navigation, About) has a column of items underneath
+### Learning: I learned how to make a decent footer - with titles, items and a good layout
 
 ### Problem: Footer is inefficient. I was using divs for each list item, meaning that with a hover effect they would all move together
-### Solution: Use lists instead - just like the header, except vertical. Also added some nice animations to it so it looks better.
-### Learning: I learned how footers can be made to look decent, and how to make my website more efficient.
+### Solution: Use lists instead - just like the header, except vertical. Also added some nice animations to it so it looks better
+### Learning: I learned how footers can be made to look decent, and how to make my website more efficient
+
+
+## Date: 12/08/2026
+### TIme Spent: 4 hours
+### Activity: Refining the website
+
+### Problem: There's no content
+### Solution: Add some placeholder content
+### Learning: Not much
+
+### Problem: The content looks bad
+### Solution: Organise it, put it into boxes and play with the sizes, padding, etc
+### Learning: Re-learned how flexbox works, and how to apply it in a website
+
+### Problem: No brand identity - it's just a plain page
+### Solution: Make a logo, then add it to the website
+### Learning: Basic graphic design
