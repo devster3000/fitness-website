@@ -137,3 +137,6 @@ Overall, pretty good.
 ### Solution: Add example fitness plans at absurd prices because it's funny.
 ### Learning: Learned more about layouts within css flexbox, and how they can be used to create.
 
+### Problem: About section - image won't scale properly.
+### Solution: Make width the width I want - e.g. 700px, then can set height as "auto" so it automatically scales down the image.
+### Learning: Learned how to scale images
