@@ -150,6 +150,13 @@ footer {
     flex-direction: row;
 }
 
+.row img {
+    border-radius: 16px;
+    max-width: 500px;
+    height: auto;
+}
+
+
 .box {
     display: flex;
     flex-direction: column;
@@ -211,6 +218,36 @@ footer {
     border-left: 10px solid #131313;
 }
 
+.about-row {
+    display: flex;
+
+    justify-content: center;
+    flex-direction: row;
+
+    margin-left: 8rem;
+    margin-right: 8rem;
+
+    margin-top: -70px;
+}
+
+.about-row img {
+    border-radius: 16px;
+    max-width: 1200px;
+    height: auto;
+}
+
+.about-section {
+    display: flex;
+    flex-direction: column;
+    
+    margin: 2rem;
+    padding: 2rem;
+
+    min-width: 300px;
+    min-height: 200px;
+
+    max-width: 700px;
+}
 
 
 
