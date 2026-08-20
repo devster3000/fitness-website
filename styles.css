@@ -132,6 +132,7 @@ footer {
 }
 
 
+
 /* === Page Contents === */
 .greeting-text {
     display: flex;
@@ -167,7 +168,8 @@ footer {
     transition: transform 0.3s ease-in-out;
 }
 
-.box:hover {
+.box:hover,
+.box-button:hover {
     transform: translateY(-10px);
 }
 
@@ -193,7 +195,11 @@ footer {
     font-weight: bold;
 
     min-height: 3rem;
+
+    transition: transform 0.3s ease-in-out;
 }
+
+
 
 
 @media (prefers-color-scheme: dark) {

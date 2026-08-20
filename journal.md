@@ -127,3 +127,13 @@ Overall, pretty good.
 ### Problem: No brand identity - it's just a plain page
 ### Solution: Make a logo, then add it to the website
 ### Learning: Basic graphic design
+
+
+## Date: 20/08/2026
+### Time Spent: 4 hours
+### Activity: Making the homepage better
+
+### Problem: There are no fitness plans for the user to choose.
+### Solution: Add example fitness plans at absurd prices because it's funny.
+### Learning: Learned more about layouts within css flexbox, and how they can be used to create.
+
