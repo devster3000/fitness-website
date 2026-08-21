@@ -378,10 +378,10 @@ footer {
     }
 
     .workout-box img {
-        width: 50px;
+        width: 70px;
         height: auto;
         justify-content: start;
-        margin-left: -10px;
+        margin-left: -70px;
     }
 
     /* About page */
