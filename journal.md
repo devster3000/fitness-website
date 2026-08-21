@@ -131,7 +131,7 @@ Overall, pretty good.
 
 ## Date: 20/08/2026
 ### Time Spent: 4 hours
-### Activity: Making the homepage better
+### Activity: Making the homepage better & Making the About page
 
 ### Problem: There are no fitness plans for the user to choose.
 ### Solution: Add example fitness plans at absurd prices because it's funny.
@@ -140,3 +140,8 @@ Overall, pretty good.
 ### Problem: About section - image won't scale properly.
 ### Solution: Make width the width I want - e.g. 700px, then can set height as "auto" so it automatically scales down the image.
 ### Learning: Learned how to scale images
+
+
+## Date: 21/08/2026
+### Time Spent: 3 hours
+### Activity: Creating the Workouts page
