@@ -145,3 +145,8 @@ Overall, pretty good.
 ## Date: 21/08/2026
 ### Time Spent: 3 hours
 ### Activity: Creating the Workouts page
+
+### Problem: The workout icon and the text are too close together, and are centred in the middle
+### Solution: Use padding and margins to position them as I wish
+### Learning: How to position items using CSS
+
