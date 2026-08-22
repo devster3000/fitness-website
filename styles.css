@@ -105,11 +105,17 @@ nav {
 /* === Footer === */
 footer {
     display: flex;
-    justify-content: start;
+    justify-content: space-between;
     align-items: start;
     padding: 2rem;
     padding-left: 6rem;
+    padding-right: 6rem;
     border-top: 1px solid black;
+}
+
+.categories {
+    display: flex;
+    justify-content: start;
 }
 
 .footer-titles {
@@ -132,6 +138,13 @@ footer {
     transform: translateX(5px);
 }
 
+.contact {
+    display: flex;
+    flex-direction: column;
+
+    justify-content: start;
+    align-items:start;
+}
 
 
 /* === Page Contents === */
