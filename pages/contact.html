@@ -30,8 +30,30 @@
 
 
     <div class="content">
-      <h1>Contact Form</h1>
-      <p> This is som,e text</p>
+
+      <div class="centred-content">
+        <h1>Contact Form</h1>
+
+        <form class="form-box">
+
+          <label for="email">Email address</label>
+          <input type="text" id="fname" name="firstname" placeholder="email@example.com">
+
+          <label for="country">Country</label>
+          <select id="country" name="country">
+            <option value="gb">Great Britain</option>
+            <option value="fr">France</option>
+            <option value="usa">USA</option>
+          </select>
+
+          <label for="subject">Subject</label>
+          <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+
+          <input type="submit" value="Submit">
+
+        </form>
+
+      </div>
 
     </div>
 
