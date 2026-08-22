@@ -17,7 +17,7 @@ body {
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     cursor: url("assets/cursor-files/cursor_pointer.png"), auto;
 
-    background-color: #fcfcfb;
+    background-color: #e3ffe5;
 
     flex-direction: column;
 }
@@ -143,6 +143,13 @@ footer {
     padding-left: 6rem;
 }
 
+.subtitle-text {
+    display: flex;
+    padding-left: 6rem;
+
+    margin-top: -1.5rem;
+}
+
 .row {
     display: flex;
 
@@ -166,7 +173,7 @@ footer {
     padding: 2rem;
 
     border: 2px solid #061b13;
-    background: #061b13;
+    background: #1f2b26;
     border-radius: 24px;
     color: white;
 
@@ -209,6 +216,18 @@ footer {
     transition: transform 0.3s ease-in-out;
 }
 
+.workout-box {
+    display: flex;
+    justify-content: center;
+    padding-left: 2rem;
+}
+
+.workout-box img {
+    width: 70px;
+    height: auto;
+    justify-content: start;
+    margin-left: -70px;
+}
 
 /* == About Page == */
 .about-titles {
@@ -216,7 +235,7 @@ footer {
     padding-left: 2rem;
     font-weight: bold;
 
-    border-left: 10px solid #131313;
+    border-left: 10px solid #bbd94d;
 }
 
 .about-row {
@@ -313,7 +332,7 @@ input[type=submit]:hover {
 @media (prefers-color-scheme: dark) {
     
     body {
-        background-color: #131313;
+        background-color: #1f2b26;
         color: white;
     }
 
@@ -340,6 +359,7 @@ input[type=submit]:hover {
     .box-button {
         background: white;
         border: 1px solid white;
+        color: black;
 
         color: black;
     }
@@ -355,4 +375,113 @@ input[type=submit]:hover {
         color: black;
     }
 
+    .about-titles {
+        border-left: 10px solid #bbd94d;
+    }
+
+}
+
+/* === Mobile Layout === */
+@media screen and (max-width: 700px) {
+
+    .content {
+        margin: 1rem;
+    }
+
+    nav {
+        flex-direction: column;
+        gap: 1rem;
+        text-align: center;
+        padding: 1rem;
+    }
+
+    .left-buttons,
+    .right-buttons {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 10px;
+    }
+
+    .centre-nav img {
+        width: 200px;
+    }
+
+    .greeting-text {
+        font-size: 2rem;
+        padding-left: 1rem;
+    }
+
+    .subtitle-text {
+        padding-left: 1rem;
+        margin-top: -1rem;
+    }
+
+    .row,
+    .about-row {
+        flex-direction: column;
+        margin: 0;
+        gap: 1rem;
+    }
+
+    .row img,
+    .about-row img {
+        width: 100%;
+        max-width: 100%;
+        height: auto;
+    }
+
+    .box {
+        min-width: unset;
+        width: 100%;
+        max-width: 100%;
+        margin: 0.5rem 0;
+        box-sizing: border-box;
+    }
+
+    .box h1 {
+        font-size: 1.5rem;
+    }
+
+    .workout-box {
+        justify-content: center;
+        flex-direction: row;
+        padding-left: 1rem;
+    }
+
+    .workout-box img {
+        width: 70px;
+        height: auto;
+        justify-content: start;
+        margin-left: -70px;
+    }
+
+    /* About page */
+    .about-titles {
+        margin: 1rem;
+        padding-left: 1rem;
+    }
+
+    .about-section {
+        min-width: unset;
+        max-width: 100%;
+        margin: 1rem;
+        padding: 1rem;
+    }
+
+    /* Footer */
+    footer {
+        flex-direction: column;
+        padding: 1rem;
+        gap: 1rem;
+    }
+
+    .footer-titles {
+        padding-right: 0;
+        font-size: 1.5rem;
+    }
+
+    .footer-text,
+    .footer-text li {
+        margin-left: 0;
+    }
 }
